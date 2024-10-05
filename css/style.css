@@ -57,10 +57,11 @@
   }
   
   header {
-    height: 80px;
+    max-height: 20%;
     background-color: #add8e6;
     color: black;
-    padding: 20px;
+    padding-top: 10px;
+    
   }
   
   footer {
@@ -91,6 +92,19 @@
     width: 50%;
     text-align: center;
   }
+
+  header .section-blue {
+    background-color: #00008b;
+    margin-top: 10px;
+  }
+
+  .section-blue .container {
+    min-height: 300px;
+    width: 60%;
+    background-color: #ee82ee;
+  }
+
+
   
   
   /* MAIN */
