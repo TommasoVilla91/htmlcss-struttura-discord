@@ -78,7 +78,7 @@
   }
   
   /* HEADER */
-  
+  /* section 1 */
   header .container {
     background-color: #daa520;
     height: 35px;
@@ -92,6 +92,8 @@
     width: 50%;
     text-align: center;
   }
+
+  /* section 2 */
 
   header .section-blue {
     background-color: #00008b;
@@ -108,23 +110,30 @@
   
   
   /* MAIN */
-  
+  /* section 1 */
+
   .col-30 {
     width: 30%;
+
     /* debug */
     background-color: lightcoral;
   }
   
   .col-70 {
     width: 70%;
+
     /* debug */
     background-color: lightblue;
   }
   
+  /* section 2 */
+
   main .section-2 {
     background-color: #d3d3d3;
   }
   
+  /* section 4 */
+
   .section-4 {
     background-color: #d3d3d3;
   }
@@ -135,6 +144,7 @@
   }
 
   /* FOOTER */
+  /* section 1 */
 
   .col-big {
     background-color: #f08080;
@@ -143,6 +153,8 @@
 
   footer .section-1 .container .row .col-small {
     background-color: #20b2aa;
+
+    /* debug */
     border: 1px dashed white;
   }
 
@@ -150,19 +162,43 @@
     padding-top: 5px;
   }
 
+  /* section 2 */
+
   footer .section-2 {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
+    padding-bottom: 0px;
+
   }
 
   footer .section-2 .container {
     background-color: #7fffd4;
-    height: 100px;
+    height: 50px;
   }
 
   footer .section-2 .container .row {
     max-height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
 
+  }
+
+  .logo {
+    border: 1px dashed black;
+    background-color: #ffb6c1;
+    text-align: center;
+    padding: 2px 5px;
+    height: 25px;
+
+  }
+
+  .button {
+    border: 1px dashed black;
+    background-color: #ffb6c1;
+    text-align: center;
+    padding: 2px 5px;
+    height: 25px;
   }
 
   
