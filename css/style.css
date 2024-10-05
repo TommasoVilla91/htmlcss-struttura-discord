@@ -1,112 +1,112 @@
+:root {
+    --ht-bc: #add8e6;
+    --ht-container: #daa520;
+    --hb-bc: #00008b;
+    --hb-box: #ee82ee;
+
+    --evenly-sec-main: #ffffff;
+    --odd-sec-main: #d3d3d3;
+    --bc-col-30: #ffc0cb;
+    --bc-col-70: #1e90ff;
+    --bc-box-bot: #228b22;
+
+
+}
+
+
+/* RESET */
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-
-/* COMMON */
-/* layout */
-
-header {
-    background-color: lightblue;
-}
-
-.container {
+  }
+  
+  /* COMMON */
+  /* Layout */
+  .container {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
-    
+  
     /* debug */
-    border: 1px dashed black;
-    min-height: 30px;
-} 
-
-.row {
+    border: 2px dashed black;
+    /* min-height: 200px; */
+  }
+  
+  .row {
     display: flex;
-        
-}
-
-section {   
-    padding: 30px 0;
-
-}
-
-main .container {
-    height: 300px;
-    
-}
-
-footer {
-    background-color: lightgray;
-
-    /* debug */
+    justify-content: space-between;
+  }
+  
+  /* debug */
+  
+  header [class^="col-"] {
+    border: 2px dashed black;
+    min-height: 33px;
+  }
+  
+  main [class^="col-"] {
+    border: 2px dashed black;
     min-height: 300px;
-}
-
-
-
-/* MAIN */
-/* header */
-.header-top {
-    height: 60px;
-    padding: 15px;
-}
-
-header .container {
-    background-color: lightgoldenrodyellow;
-}
-
-
-.col-50 {
+  }
+  
+  section {
+    padding: 30px 0;
+  }
+  
+  header {
+    height: 80px;
+    background-color: #add8e6;
+    color: black;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #23272a;
+    /* debug */
+    min-height: 100px;
+  }
+  
+  /* HEADER */
+  
+  header .container {
+    background-color: #daa520;
+    height: 35px;
+  }
+  
+  .col-25 {
+    width: 25%;
+  }
+  
+  .col-50 {
     width: 50%;
     text-align: center;
-}
-
-.col-25 {
-    width: 25%;
-}
-
-.col-25-2 {
-    text-align: right;
-    width: 25%;
-}
-
-.header-bottom {
-    background-color: blue;
-    padding: 30px 0;
-    
-}
-
-.header-bottom .container {
-    background-color: pink;
-    width: 80%;
-
-    /* debug */
-    height: 300px;
-    width: 800px;
-}
-
-/* main */
-
-
-.col-70 {
-    width: 70%;
-    background-color: cadetblue;
-}
-
-.col-30 {
+  }
+  
+  
+  /* MAIN */
+  
+  .col-30 {
     width: 30%;
-    background-color: lightpink;
-}
-
-.main-2 {
-    background-color: lightgray;
-}
-
-.main-2 .container .row {
-    flex-direction: row;
-}
-
-
-/* footer */
-
+    /* debug */
+    background-color: lightcoral;
+  }
+  
+  .col-70 {
+    width: 70%;
+    /* debug */
+    background-color: lightblue;
+  }
+  
+  .section-2 {
+    background-color: #d3d3d3;
+  }
+  
+  .section-4 {
+    background-color: #d3d3d3;
+  }
+  
+  .section-4 .container {
+    background-color: #228b22;
+    height: 500px;
+  }
